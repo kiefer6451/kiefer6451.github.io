@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    color: white !important;
 }
 
 body {
@@ -10,6 +11,10 @@ body {
 
 ul {
     margin: 0px;
+}
+
+.text-left{
+    color: white;
 }
 
 .navbar{
@@ -64,32 +69,73 @@ hr {
 }
 
 .about-description hr{
-    width: 70%;
+    width: 100%;
     border-top: 1px solid white;
 }
 
 .social-links a img{
     height: 4.5em;
     width: 4.5em;
-    border-radius: 4.5em;
+    border-radius: 50%;
     margin-right: 1em;
     margin-left: 1em;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0em 2em 3em -1.5em rgba(255, 255, 255, 0.7);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0em 2em 3em -1.5em rgba(255, 255, 255, 0.7);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0em 2em 3em -1.5em rgba(255, 255, 255, 0.7);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-#social-github:hover{
-    border: 1px solid white;
-}
-
-#social-linked-in:hover{
-    border: 1px solid white;
+.social-links a img:hover{
+    height: 5em;
+    width: 5em;
+    -webkit-box-shadow: 0em 2em 3em -1.5em rgba(255, 255, 255, 1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0em 2em 3em -1.5em rgba(255, 255, 255, 1);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0em 2em 3em -1.5em rgba(255, 255, 255, 1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    transition: all 0.3s;
 }
 
 #projects{
     background-color: #111111;
 }
 
-.projects-title{
+.projects-title, .project-title, .project-languages{
     color: white;
     text-align: center;
+}
+
+.project-img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-top: 18px;
+    text-align: center;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0em 7em 7em -5em rgba(255, 255, 255, 0.7);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0em 7em 7em -5em rgba(255, 255, 255, 0.7);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0em 7em 7em -5em rgba(255, 255, 255, 0.7);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.project-img:hover{
+    height: 300px;
+    width: 300px;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0em 7em 7em -5em rgba(255, 255, 255, 1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0em 7em 7em -5em rgba(255, 255, 255, 1);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0em 7em 7em -5em rgba(255, 255, 255, 1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.project-description{
+    width: 300px;
+    padding: 3em 0em;
+}
+
+#snipgen{
+    background-image: url(./assets/images/snipgen.png);
+    background-color: #99d9ea;
 }
 
