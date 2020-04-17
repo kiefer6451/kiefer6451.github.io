@@ -69,9 +69,11 @@ hr {
 }
 
 .social-links a img{
-    height: 5em;
-    width: 5em;
-    border-radius: 5em;
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 4.5em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 #social-github:hover{
@@ -83,7 +85,7 @@ hr {
 }
 
 #projects{
-    background-color: #333333;
+    background-color: #111111;
 }
 
 .projects-title{
