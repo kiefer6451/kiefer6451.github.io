@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-color: #333333 !important;
+    background-color: black !important;
     background-size: cover;
     background-position: center;  
 }
@@ -54,6 +54,11 @@ hr {
     margin-top: 18px;
 }
 
+#about{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
 .about-description{
     color: white; 
 }
@@ -63,7 +68,26 @@ hr {
     border-top: 1px solid white;
 }
 
+.social-links a img{
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+}
+
+#social-github:hover{
+    border: 1px solid white;
+}
+
+#social-linked-in:hover{
+    border: 1px solid white;
+}
+
+#projects{
+    background-color: #333333;
+}
+
 .projects-title{
     color: white;
     text-align: center;
 }
+
