@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Eric Kiefer</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Eric Kiefer</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#intro">Eric Kiefer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./assets/docs/Resume Eric Kiefer.pdf">Resume</a>
@@ -28,10 +29,91 @@
             </ul>
         </div>
     </nav>
+
+    <div id="intro" class="container-fluid p-0 mt-10 fill">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="content">
+                    <h1>Eric Kiefer</h1>
+                    <h3>Full Stack Developer</h3>
+                    <hr>
+                    <button class="btn btn-default btn-lg">Get Started</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <div id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="txt-center">
+                    <div class="portrait-img"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-description">
+                    <h1>About Me</h1>
+                    <hr align="left">
+                    <p>
+                        I am entering my fourth year as a student studying software engineering at Western University. As a 
+                        web and mobile applications developer, I am passionate about a broad range of topics in the 
+                        software engineering field. 
+                    </p>
+                    <p>
+                        IOT software projects that can be used to redefine the ways in which
+                        we use everyday products are of particular interest to me. I keep my skills up 
+                        to date and have learned to use multiple languages and frameworks in my personal projects.   
+                    </p>
+                    <p>
+                        My hobbies include fitness, competitive eSports gaming, fishing, swimming, and martial arts. I also
+                        belong to Western Engineering's mars rover club and compete in intramurals.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div id="projects" class="container">
+        <div class="row">
+            <div class="col-md-12"> 
+                <div class="projects-title">
+                    <h1>Projects</h1>
+                    <hr>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
     <!-- <img src="./assets/images/portrait.jpg" /> -->
+    <script src="./script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!--
+    
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark d-flex justify-content-between" style="color:white">
+
+        <h4>Eric Kiefer</h4>
+
+        <button class="d-flex d-lg-none" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="d-lg-flex d-none flex-row list-unstyled m-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./assets/docs/Resume Eric Kiefer.pdf">Resume</a>
+            </li>
+        </ul>
+    </nav>
+-->
