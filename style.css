@@ -136,6 +136,11 @@ hr {
 
 #snipgen{
     background-image: url(./assets/images/snipgen.png);
-    background-color: #99d9ea;
+    background-color: #ffffff;
+}
+
+#kbeats{
+    background-image: url(./assets/images/kBeats.jpg);
+    background-color: black;
 }
 
