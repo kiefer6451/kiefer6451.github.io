@@ -141,6 +141,13 @@ hr {
 
 #kbeats{
     background-image: url(./assets/images/kBeats.jpg);
-    background-color: black;
 }
 
+#zenfitness{
+    background-image: url(./assets/images/zenfitness.jpeg);
+    background-size: cover;
+}
+
+#change4better{
+    background-image: url(./assets/images/Change4Better.png);
+}
