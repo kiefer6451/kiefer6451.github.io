@@ -1,9 +1,5 @@
-$('.loading-icon').css({ 
-    top: `${$('.navbar').get(0).clientHeight}px`
-}); 
-
 $(window).on('load', () => {
-    $('.loading-icon').hide();
+    $('#loading-screen').hide();
 });
 
 $('.nav-link').on('click', () => {
