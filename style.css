@@ -46,9 +46,15 @@ ul {
     z-index: -1;
 }
 
-hr {
-    width: 50%;
-    border-top: 1px solid white;
+#hr-intro{
+    width: 300px;
+    border-bottom: 1px solid white;
+    opacity: 0.2;
+}
+
+#hr-projects{
+    width: 300px;
+    border-bottom: 1px solid white;
 }
 
 .fill .map 
@@ -68,15 +74,14 @@ hr {
 }
 
 #about{
-    margin-top: 5em;
-    margin-bottom: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
-
 
 @media only screen and (max-width: 768px) {
     #about{
-        margin-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 
@@ -104,6 +109,18 @@ hr {
     -moz-box-shadow:    0em 2em 3em -1.5em rgba(255, 255, 255, 1);  /* Firefox 3.5 - 3.6 */
     box-shadow:         0em 2em 3em -1.5em rgba(255, 255, 255, 1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     transition: all 0.3s;
+}
+
+.projects-title{
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-title{
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
 }
 
 #projects{
@@ -169,4 +186,10 @@ hr {
 
 #p2pnetwork{
     background-image: url(./assets/images/p2pnetwork.jpg);
+}
+
+@media screen and (min-width: 768px)  {
+    .mobile-break{ 
+        display: none; 
+    }
 }
