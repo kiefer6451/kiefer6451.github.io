@@ -171,5 +171,8 @@ hr {
 
 #plantmanager{
     background-image: url(./assets/images/plantmanager.png);
-    background-color: #333333;
+}
+
+#p2pnetwork{
+    background-image: url(./assets/images/p2pnetwork.jpg);
 }
