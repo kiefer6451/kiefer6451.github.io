@@ -1,6 +1,5 @@
 html{
     scroll-behavior: smooth;
-    color: white !important;
     overflow-x: hidden;
 }
 
@@ -10,6 +9,7 @@ body {
     background-size: cover;
     background-position: center;  
     overflow: hidden;
+    color: white !important;
 }
 
 ul {
@@ -80,11 +80,6 @@ hr {
     }
 }
 
-
-.about-description{
-    color: white; 
-}
-
 .about-description hr{
     width: 100%;
     border-top: 1px solid white;
@@ -116,7 +111,6 @@ hr {
 }
 
 .projects-title, .project-title, .project-languages{
-    color: white;
     text-align: center;
 }
 
