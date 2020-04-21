@@ -18,10 +18,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
+                    <a class="nav-link" href="#about-section">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#projects-section">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./assets/docs/Resume Eric Kiefer.pdf">Resume</a>
@@ -30,159 +30,168 @@
         </div>
     </nav>
 
-    <div id="intro" class="container-fluid p-0 mt-10 fill">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="content">
-                    <div id="intro-img"></div>
-                    <h1>Eric Kiefer</h1>
-                    <h3>Full Stack Developer</h3>
+    <section id="intro-section">
+        <div id="intro" class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="content">
+                        <div id="intro-img"></div>
+                        <h1>Eric Kiefer</h1>
+                        <h3>Full Stack Developer</h3>
+                        <hr>
+                        <button class="btn btn-default btn-lg">Get Started</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>    
+
+    <section id="about-section">
+        <div id="about" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="txt-center">
+                        <div class="portrait-img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-description">
+                        <h1>About Me</h1>
+                        <hr align="left">
+                        <p>
+                            I am entering my fourth year as a student studying software engineering at Western University. As a 
+                            web and mobile applications developer, I am passionate about a broad range of topics in the 
+                            software engineering field. 
+                        </p>
+                        <p>
+                            IOT software projects that can be used to redefine the ways in which
+                            we use everyday products are of particular interest to me. I keep my skills up 
+                            to date and have learned to use multiple languages and frameworks in my personal projects.   
+                        </p>
+                        <p>
+                            My hobbies include fitness, competitive eSports gaming, fishing, swimming, and martial arts. I also
+                            belong to Western Engineering's mars rover club and compete in intramurals.  
+                        </p>
+                        <div class="d-flex social-links justify-content-center">
+                            <a href="https://github.com/kiefer6451">
+                                <img id="social-github" src="./assets/images/social-github.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/eric-kiefer-b8174915b">
+                                <img id="social-linked-in" src="./assets/images/social-linked-in.jpeg">
+                            </a>
+                            <a href="mailto:ekiefer@uwo.ca">
+                                <img id="social-outlook" src="./assets/images/social-outlook.png">
+                            </a>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+
+    <section id="projects-section">
+        <div id="projects" class="container-fluid">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="projects-title">
+                        <h1>Projects</h1>
+                        <hr>
+                    </div>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="project-title">Change4Better</h3>
                     <hr>
-                    <button class="btn btn-default btn-lg">Get Started</button>
-                </div>
-            </div>
-        </div> 
-    </div>
-
-    <div id="about" class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="txt-center">
-                    <div class="portrait-img"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="about-description">
-                    <h1>About Me</h1>
-                    <hr align="left">
-                    <p>
-                        I am entering my fourth year as a student studying software engineering at Western University. As a 
-                        web and mobile applications developer, I am passionate about a broad range of topics in the 
-                        software engineering field. 
+                    <h5 class="project-languages">Java, SQLite</h5>
+                    <a href="https://www.youtube.com/watch?v=TOfReUk7KR0&feature=youtu.be">
+                        <div id="change4better" class="project-img mx-auto d-block"></div> 
+                    </a>
+                    <p class="project-description text-left mx-auto d-block">
+                        Food delivery services like UberEats and DoorDash are very convient, but can quickly become an expensive and unhealthy habit if you're
+                        not careful. Change4Better was developed as a means of breaking this behaviour, by implementing the four step process
+                        to breaking habits from the book <em>You Are Not Your Brain</em> by Gladding and Schwartz in a native Android mobile app.  
                     </p>
-                    <p>
-                        IOT software projects that can be used to redefine the ways in which
-                        we use everyday products are of particular interest to me. I keep my skills up 
-                        to date and have learned to use multiple languages and frameworks in my personal projects.   
-                    </p>
-                    <p>
-                        My hobbies include fitness, competitive eSports gaming, fishing, swimming, and martial arts. I also
-                        belong to Western Engineering's mars rover club and compete in intramurals.  
-                    </p>
-                    <div class="d-flex social-links justify-content-center">
-                        <a href="https://github.com/kiefer6451">
-                            <img id="social-github" src="./assets/images/social-github.png">
-                        </a>
-                        <a href="https://www.linkedin.com/in/eric-kiefer-b8174915b">
-                            <img id="social-linked-in" src="./assets/images/social-linked-in.jpeg">
-                        </a>
-                        <a href="mailto:ekiefer@uwo.ca">
-                            <img id="social-outlook" src="./assets/images/social-outlook.png">
-                        </a>
-                    </div>                    
                 </div>
-            </div>
-        </div>
-    </div>    
-
-    <div id="projects" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12"> 
-                <div class="projects-title">
-                    <h1>Projects</h1>
+                <div class="col-md-4">
+                    <h3 class="project-title">SnipGen</h3>
                     <hr>
-                </div>                
+                    <h5 class="project-languages">Python</h5>
+                    <a href="https://github.com/kiefer6451/snipgen">
+                        <div id="snipgen" class="project-img mx-auto d-block"></div>
+                    </a>                
+                    <p class="project-description text-left mx-auto d-block">
+                        Developers are constantly switching between their IDE and browser to search for answers to technical questions.
+                        Developed in collaboration with <a href="http://www.caydenpierce.com">Cayden Pierce</a>, SnipGen is a command line app that streamlines this process in order. The software features natural language 
+                        search with automated clipboarding of web-scraped code snippets and VIM key bindings for fast answer surfing. 
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="project-title">PlantManager</h3>
+                    <hr>
+                    <h5 class="project-languages">React, Django, MySQL</h5>
+                    <div id="plantmanager" class="project-img mx-auto d-block"></div>
+                    <p class="project-description text-left mx-auto d-block">
+                        On the plant floor, automated industrial machines are suspecitble to faults that result in significant downtime that increase 
+                        production costs. PlantManager is a full stack web application that is used to monitor manufacturing equipment by streaming machine data from
+                        a raspberry pi with PLCs. Through big data analytics and machine learning models, downtime is remarkably reduced.  
+                    </p> 
+                </div>            
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3 class="project-title">Change4Better</h3>
-                <hr>
-                <h5 class="project-languages">Java, SQLite</h5>
-                <a href="https://www.youtube.com/watch?v=TOfReUk7KR0&feature=youtu.be">
-                    <div id="change4better" class="project-img mx-auto d-block"></div> 
-                </a>
-                <p class="project-description text-left mx-auto d-block">
-                    Food delivery services like UberEats and DoorDash are very convient, but can quickly become an expensive and unhealthy habit if you're
-                    not careful. Change4Better was developed as a means of breaking this behaviour, by implementing the four step process
-                    to breaking habits from the book <em>You Are Not Your Brain</em> by Gladding and Schwartz in a native Android mobile app.  
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="project-title">SnipGen</h3>
-                <hr>
-                <h5 class="project-languages">Python</h5>
-                <a href="https://github.com/kiefer6451/snipgen">
-                    <div id="snipgen" class="project-img mx-auto d-block"></div>
-                </a>                
-                <p class="project-description text-left mx-auto d-block">
-                    Developers are constantly switching between their IDE and browser to search for answers to technical questions.
-                    Developed in collaboration with <a href="http://www.caydenpierce.com">Cayden Pierce</a>, SnipGen is a command line app that streamlines this process in order. The software features natural language 
-                    search with automated clipboarding of web-scraped code snippets and VIM key bindings for fast answer surfing. 
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="project-title">PlantManager</h3>
-                <hr>
-                <h5 class="project-languages">React, Django, MySQL</h5>
-                <div id="plantmanager" class="project-img mx-auto d-block"></div>
-                <p class="project-description text-left mx-auto d-block">
-                    On the plant floor, automated industrial machines are suspecitble to faults that result in significant downtime that increase 
-                    production costs. PlantManager is a full stack web application that is used to monitor manufacturing equipment by streaming machine data from
-                    a raspberry pi with PLCs. Through big data analytics and machine learning models, downtime is remarkably reduced.  
-                </p> 
-            </div>            
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3 class="project-title">P2P Network</h3>
-                <hr>
-                <h5 class="project-languages">Node.js</h5>
-                <div id="p2pnetwork" class="project-img mx-auto d-block"></div>    
-                <p class="project-description text-left mx-auto d-block">
-                    I created a peer-to-peer network with custom image querying protocols from scratch using TCP sockets from the Net
-                    library in Node.js. The implementation features an unstructured overlay topology with a flooding algorithm, automatic
-                    redirect joining, image transfers, and specialized packets using buffers.  
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="project-title">kBeats</h3>
-                <hr>
-                <h5 class="project-languages">Angular, Node.js, MongoDB</h5>
-                <div id="kbeats" class="project-img mx-auto d-block"></div>    
-                <p class="project-description text-left mx-auto d-block">
-                    A full stack site deployed using AWS that allows users to search and review songs that have been uploaded to the site
-                    by other users. Third party and local authentication strategies with email verification were adopted. Administrative 
-                    frontend site functions were developed and JWT's were used for authorization measures.    
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="project-title">ZEN Fitness</h3>
-                <hr>
-                <h5 class="project-languages">EJS, Node.js, MySQL</h5>
-                <div id="zenfitness" class="project-img mx-auto d-block"></div>
-                <p class="project-description text-left mx-auto d-block">
-                    Personal trainers are always trying to give their clients the best possible routines to achieve their goals. ZEN Fitness is 
-                    a web application that provides personal trainers with a portal to generate workouts specialized for targetted muscle groups,
-                    as well as track progress in order to help their clients make their goal a reality.  
-                </p>
-            </div>
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
-            </div>
-        </div>
-    </div>
-
-    <div id="copyright" class="container-fluid">
-        <div class="row p-3">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h5>Copyright &copy; 2020 Eric Kiefer</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="project-title">P2P Network</h3>
+                    <hr>
+                    <h5 class="project-languages">Node.js</h5>
+                    <div id="p2pnetwork" class="project-img mx-auto d-block"></div>    
+                    <p class="project-description text-left mx-auto d-block">
+                        I created a peer-to-peer network with custom image querying protocols from scratch using TCP sockets from the Net
+                        library in Node.js. The implementation features an unstructured overlay topology with a flooding algorithm, automatic
+                        redirect joining, image transfers, and specialized packets using buffers.  
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="project-title">kBeats</h3>
+                    <hr>
+                    <h5 class="project-languages">Angular, Node.js, MongoDB</h5>
+                    <div id="kbeats" class="project-img mx-auto d-block"></div>    
+                    <p class="project-description text-left mx-auto d-block">
+                        A full stack site deployed using AWS that allows users to search and review songs that have been uploaded to the site
+                        by other users. Third party and local authentication strategies with email verification were adopted. Administrative 
+                        frontend site functions were developed and JWT's were used for authorization measures.    
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="project-title">ZEN Fitness</h3>
+                    <hr>
+                    <h5 class="project-languages">EJS, Node.js, MySQL</h5>
+                    <div id="zenfitness" class="project-img mx-auto d-block"></div>
+                    <p class="project-description text-left mx-auto d-block">
+                        Personal trainers are always trying to give their clients the best possible routines to achieve their goals. ZEN Fitness is 
+                        a web application that provides personal trainers with a portal to generate workouts specialized for targetted muscle groups,
+                        as well as track progress in order to help their clients make their goal a reality.  
+                    </p>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
                 </div>
             </div>
-        </div> 
-    </div>
+        </div>
+    
+        <section id="copyright-section">
+            <div id="copyright" class="container-fluid">
+                <div class="row p-3">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h5>Copyright &copy; 2020 Eric Kiefer. All rights reserved.</h5>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>        
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
