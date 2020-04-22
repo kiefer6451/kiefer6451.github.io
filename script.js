@@ -8,12 +8,9 @@ $('.nav-link').on('click', () => {
 
 $('nav').find('a').click(e => {
     const section = e.target.href.split('#')[1];
-    if (section == 'about-section' || section == 'projects-section'){
+    if (section == 'about-section' || section == 'projects-section' && !(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/))){
         e.preventDefault(); 
-        if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/))      
-            $('body').scrollTop($(`#${section}`).offset().top - $('.navbar').height()); 
-        else
-            $('html, body').scrollTop($(`#${section}`).offset().top - $('.navbar').height());        
+        $('html, body').scrollTop($(`#${section}`).offset().top - $('.navbar').height());        
     }   
 });
 
