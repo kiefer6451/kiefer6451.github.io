@@ -11,7 +11,7 @@ $('nav').find('a').click(e => {
     if (section == 'about-section' || section == 'projects-section'){
         e.preventDefault(); 
         if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/))      
-            $('html, body').scrollTop($(`#${section}`).offset().top); 
+            $('html, body').scrollTop($(`#${section}`).offset().top - 40); 
         else
             $('html, body').scrollTop($(`#${section}`).offset().top - $('.navbar').height());        
     }   
