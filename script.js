@@ -14,3 +14,10 @@ $('nav').find('a').click(e => {
     }   
 });
 
+$('#change4better').on('click', e => {
+    window.location.href = "https://www.youtube.com/watch?v=TOfReUk7KR0&feature=youtu.be";
+}); 
+
+$('#snipgen').on('click', e => {
+    window.location.href = "https://github.com/kiefer6451/snipgen";
+});

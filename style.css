@@ -135,6 +135,13 @@ ul {
     margin-top: 18px;
 }
 
+@media only screen and (max-width: 400px) {
+    .portrait-img{
+        height: 340px;
+        width: 340px;
+    }
+}
+
 #about{
     padding-top: 5em;
     padding-bottom: 5em;
@@ -229,6 +236,10 @@ ul {
     background-color: #ffffff;
 }
 
+#snipgen:hover{
+    cursor: pointer;
+}
+
 #kbeats{
     background-image: url(./assets/images/kBeats.jpg);
 }
@@ -240,6 +251,10 @@ ul {
 
 #change4better{
     background-image: url(./assets/images/Change4Better.png);
+}
+
+#change4better:hover{
+    cursor: pointer;
 }
 
 #plantmanager{
