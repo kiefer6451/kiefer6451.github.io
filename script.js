@@ -24,3 +24,7 @@ $('#change4better').on('click', e => {
 $('#snipgen').on('click', e => {
     window.location.href = "https://github.com/kiefer6451/snipgen";
 });
+
+$('#mxt').on('click', e => {
+    window.location.href = "https://memoryexpansiontools.com/";
+});
