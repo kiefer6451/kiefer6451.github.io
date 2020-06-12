@@ -270,6 +270,10 @@ ul {
     background-color: #222222;
 }
 
+#wqa{
+    background-image: url(./assets/images/WQA.png);
+}
+
 #mxt:hover{
     cursor: pointer;
 }
