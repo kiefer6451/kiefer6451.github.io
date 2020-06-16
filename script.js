@@ -28,3 +28,7 @@ $('#snipgen').on('click', e => {
 $('#mxt').on('click', e => {
     window.location.href = "https://memoryexpansiontools.com/";
 });
+
+$('#wqa').on('click', e => {
+    window.location.href = "./assets/docs/AquaMonitor Application Manual.pdf";
+});
