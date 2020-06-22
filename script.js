@@ -32,3 +32,7 @@ $('#mxt').on('click', e => {
 $('#wqa').on('click', e => {
     window.location.href = "./assets/docs/AquaMonitor Application Manual.pdf";
 });
+
+$('#sketchpad').on('click', e => {
+    window.location.href = "https://youtu.be/ajDvEba-A44";
+})

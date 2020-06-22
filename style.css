@@ -282,6 +282,15 @@ ul {
     cursor: pointer;
 }
 
+#sketchpad{
+    background-image: url(./assets/images/sketchpad.jpg);
+    background-size: cover;
+}
+
+#sketchpad:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width: 487px)  {
     .mobile-break{ 
         display: none; 
