@@ -33,6 +33,10 @@ $('#wqa').on('click', e => {
     window.location.href = "./assets/docs/AquaMonitor Application Manual.pdf";
 });
 
+$('#nutrition-app').on('click', e => {
+    window.location.href = "./assets/docs/Nutrition Tracker Application Manual.pdf";
+});
+
 $('#sketchpad').on('click', e => {
     window.location.href = "https://youtu.be/ajDvEba-A44";
 })
