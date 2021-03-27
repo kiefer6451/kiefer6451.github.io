@@ -299,6 +299,15 @@ ul {
     cursor: pointer;
 }
 
+#knowyourcourse{
+    background-image: url(./assets/images/knowyourcourse.png);
+    background-size: cover;
+}
+
+#knowyourcourse:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width: 487px)  {
     .mobile-break{ 
         display: none; 

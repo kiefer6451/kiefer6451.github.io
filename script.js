@@ -40,3 +40,7 @@ $('#nutrition-app').on('click', e => {
 $('#sketchpad').on('click', e => {
     window.location.href = "https://youtu.be/ajDvEba-A44";
 })
+
+$('#knowyourcourse').on('click', e => {
+    window.location.href = "https://youtu.be/uWliabmkp5E";
+})
