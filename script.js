@@ -26,7 +26,7 @@ $('#snipgen').on('click', e => {
 });
 
 $('#mxt').on('click', e => {
-    window.location.href = "https://memoryexpansiontools.com/";
+    window.location.href = "https://github.com/stairs1/memory-expansion-tools";
 });
 
 $('#wqa').on('click', e => {

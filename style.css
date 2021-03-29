@@ -236,10 +236,6 @@ ul {
     background-color: #ffffff;
 }
 
-#snipgen:hover{
-    cursor: pointer;
-}
-
 #kbeats{
     background-image: url(./assets/images/kBeats.jpg);
 }
@@ -251,10 +247,6 @@ ul {
 
 #change4better{
     background-image: url(./assets/images/Change4Better.png);
-}
-
-#change4better:hover{
-    cursor: pointer;
 }
 
 #plantmanager{
@@ -270,16 +262,8 @@ ul {
     background-color: #222222;
 }
 
-#mxt:hover{
-    cursor: pointer;
-}
-
 #wqa{
     background-image: url(./assets/images/WQA.png);
-}
-
-#wqa:hover{
-    cursor: pointer;
 }
 
 #sketchpad{
@@ -287,16 +271,8 @@ ul {
     background-size: cover;
 }
 
-#sketchpad:hover{
-    cursor: pointer;
-}
-
 #nutrition-app{
     background-image: url(./assets/images/nutrition-logo-light.png);
-}
-
-#nutrition-app:hover{
-    cursor: pointer;
 }
 
 #knowyourcourse{
@@ -304,7 +280,12 @@ ul {
     background-size: cover;
 }
 
-#knowyourcourse:hover{
+#zombieplaza{
+    background-image: url(./assets/images/zombieplaza3.png);
+    background-size: cover;
+}
+
+.project-link:hover{
     cursor: pointer;
 }
 
