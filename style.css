@@ -299,3 +299,14 @@ ul {
         display: none; 
     }
 }
+
+#bell-logo{
+    height: 1em;
+    width: 1.9em;
+    margin-bottom: 5px;
+    margin: 0px 2px 5px 2px; 
+}
+
+#bell-link:hover{
+   text-decoration: none; 
+}

@@ -1,46 +1,46 @@
 $(window).on('load', () => {
-    $('#loading-screen').hide();
+    $('#loading-screen').hide()
 });
 
 $('.nav-link').on('click', () => {
-    $('#navbarTogglerDemo02').collapse('hide'); 
+    $('#navbarTogglerDemo02').collapse('hide')
 });
 
 $('nav').find('a').click(e => {
-    const section = e.target.href.split('#')[1];
+    const section = e.target.href.split('#')[1]
     if (section == 'about-section' || section == 'projects-section'){
-        e.preventDefault(); 
+        e.preventDefault()
         if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/))      
-            $('html, body').scrollTop($(`#${section}`).offset().top - 40); 
+            $('html, body').scrollTop($(`#${section}`).offset().top - 40)
         else
-            $('html, body').scrollTop($(`#${section}`).offset().top - $('.navbar').height());        
+            $('html, body').scrollTop($(`#${section}`).offset().top - $('.navbar').height())       
     }   
 });
 
-$('#change4better').on('click', e => {
-    window.location.href = "https://www.youtube.com/watch?v=TOfReUk7KR0&feature=youtu.be";
+$('#change4better').on('click', _ => {
+    window.location.href = "https://www.youtube.com/watch?v=TOfReUk7KR0&feature=youtu.be"
 }); 
 
-$('#snipgen').on('click', e => {
-    window.location.href = "https://github.com/kiefer6451/snipgen";
+$('#snipgen').on('click', _ => {
+    window.location.href = "https://github.com/kiefer6451/snipgen"
 });
 
-$('#mxt').on('click', e => {
-    window.location.href = "https://github.com/stairs1/memory-expansion-tools";
+$('#mxt').on('click', _ => {
+    window.location.href = "https://github.com/stairs1/memory-expansion-tools"
 });
 
-$('#wqa').on('click', e => {
-    window.location.href = "./assets/docs/AquaMonitor Application Manual.pdf";
+$('#wqa').on('click', _ => {
+    window.location.href = "./assets/docs/AquaMonitor Application Manual.pdf"
 });
 
-$('#nutrition-app').on('click', e => {
-    window.location.href = "./assets/docs/Nutrition Tracker Application Manual.pdf";
+$('#nutrition-app').on('click', _ => {
+    window.location.href = "./assets/docs/Nutrition Tracker Application Manual.pdf"
 });
 
-$('#sketchpad').on('click', e => {
-    window.location.href = "https://youtu.be/ajDvEba-A44";
+$('#sketchpad').on('click', _ => {
+    window.location.href = "https://youtu.be/ajDvEba-A44"
 })
 
-$('#knowyourcourse').on('click', e => {
-    window.location.href = "https://youtu.be/uWliabmkp5E";
+$('#knowyourcourse').on('click', _ => {
+    window.location.href = "https://youtu.be/uWliabmkp5E"
 })
