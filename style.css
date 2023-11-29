@@ -125,9 +125,9 @@ ul {
 }
 
 .portrait-img{
-    background-image: url(./assets/images/portrait-3.jpg);
+    background-image: url(./assets/images/portrait.jpeg);
     background-size: cover;
-    background-position: left top;
+    /* background-position: left top; */
     height: 370px;
     width: 370px;
     border-radius: 50%;
