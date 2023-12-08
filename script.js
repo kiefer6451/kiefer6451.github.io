@@ -44,3 +44,10 @@ $('#sketchpad').on('click', _ => {
 $('#knowyourcourse').on('click', _ => {
     window.location.href = "https://youtu.be/uWliabmkp5E"
 })
+
+$('#zombieplaza').on('click', _ => {
+    const is_mobile = 'ontouchstart' in window || navigator.maxTouchPoints
+    if (!is_mobile) {
+        window.location.href = "./assets/builds/Zombie Plaza.zip"
+    }
+});
