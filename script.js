@@ -2,6 +2,10 @@ $(window).on('load', () => {
     $('#loading-screen').hide()
 });
 
+$(document).ready(() => {
+    $('#copyright-text').html(`Copyright &copy; 2020 - ${new Date().getFullYear()} Eric Kiefer. <br class="mobile-break"> All rights reserved.`);
+});
+
 $('.nav-link').on('click', () => {
     $('#navbarTogglerDemo02').collapse('hide')
 });
