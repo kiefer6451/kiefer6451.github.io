@@ -125,7 +125,7 @@ ul {
 }
 
 .portrait-img{
-    background-image: url(./assets/images/portrait.jpeg);
+    background-image: url(./assets/images/portrait.JPG);
     background-size: cover;
     /* background-position: left top; */
     height: 370px;
